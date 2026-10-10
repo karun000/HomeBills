@@ -1,0 +1,57 @@
+module.exports = function (api) {
+  api.cache(true);
+
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: [
+      [
+        'react-native-iconify/babel',
+        {
+          icons: [
+            'mdi:account-outline',
+            'mdi:account-circle',
+            'mdi:alert-circle',
+            'mdi:arrow-down',
+            'mdi:arrow-left',
+            'mdi:bell',
+            'mdi:calendar-blank-outline',
+            'mdi:calendar-check-outline',
+            'mdi:calendar-month-outline',
+            'mdi:calendar-sync-outline',
+            'mdi:chart-bar',
+            'mdi:check',
+            'mdi:check-circle',
+            'mdi:chevron-down',
+            'mdi:chevron-left',
+            'mdi:chevron-right',
+            'mdi:clock-outline',
+            'mdi:cloud-upload',
+            'mdi:cog-outline',
+            'mdi:currency-usd',
+            'mdi:currency-usd-circle',
+            'mdi:delete',
+            'mdi:dots-horizontal',
+            'mdi:email-outline',
+            'mdi:file-document-outline',
+            'mdi:fire',
+            'mdi:help-circle',
+            'mdi:home',
+            'mdi:home-circle',
+            'mdi:information',
+            'mdi:leaf',
+            'mdi:lightning-bolt',
+            'mdi:lock-outline',
+            'mdi:magnify',
+            'mdi:note-text-outline',
+            'mdi:plus',
+            'mdi:shield-check',
+            'mdi:view-grid',
+            'mdi:water',
+            'mdi:weather-night',
+            'mdi:wifi',
+          ],
+        },
+      ],
+    ],
+  };
+};

@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Home Bills",
+    "slug": "home-bills",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./src/assets/logo.png",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/logo.png",
+        "backgroundColor": "#0876F9"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f71bdfab-831f-4a39-abe9-951bb5d10511"
+      }
+    }
+  }
+}
