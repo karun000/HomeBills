@@ -13,7 +13,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/logo.png",
         "backgroundColor": "#0876F9"
-      }
+      },
+      "package": "com.karun_0022.homebills"
     },
     "extra": {
       "eas": {
